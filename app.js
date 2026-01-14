@@ -8,11 +8,11 @@ const matieres = [
   { ue: "UE 2.2", nom: "Algorithmique Avancée", coef: 3.5, projet: false },
   { ue: "UE 2.2", nom: "Programmation Java", coef: 3.5, projet: true },
 
-  { ue: "UE 2.3", nom: "Technologies Web avancées", coef: 3.5, projet: true },
+  { ue: "UE 2.3", nom: "Technologies Web avancées", coef: 3.5, projet: false },
   { ue: "UE 2.3", nom: "Réseaux d'entreprises", coef: 3, projet: false },
 
   { ue: "UE 2.4", nom: "Recherche Opérationnelle et Optimisation", coef: 3, projet: false },
-  { ue: "UE 2.4", nom: "Systèmes de Gestion des Bases de Données", coef: 3.5, projet: false },
+  { ue: "UE 2.4", nom: "Systèmes de Gestion des Bases de Données", coef: 3.5, projet: true },
 
   { ue: "UE 2.5", nom: "Comptabilité d’Entreprise", coef: 2, projet: false },
   { ue: "UE 2.5", nom: "Technical English", coef: 1.5, projet: false },
