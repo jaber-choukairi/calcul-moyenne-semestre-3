@@ -87,7 +87,7 @@ button:hover {
    RESPONSIVE – VERSION MOBILE
    ============================== */
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 
   body {
 
@@ -105,7 +105,7 @@ button:hover {
   }
 
   th {
-    display: none; /* on cache l'en-tête */
+    display: none; 
   }
 
   table, tbody, tr, td {
@@ -120,7 +120,7 @@ button:hover {
     background: white;
   }
 
-  /* Ligne UE */
+  
   .ue-row {
     background-color: #eaf0ff;
     font-size: 15px;
@@ -132,7 +132,7 @@ button:hover {
     padding: 10px;
   }
 
-  /* Matière = carte */
+
   .matiere-row td {
     border: none;
     padding: 6px 10px;
@@ -146,7 +146,6 @@ button:hover {
     width: 120px;
   }
 
-  /* Libellés */
   .matiere-row td:nth-child(1)::before { content: "Matière"; }
   .matiere-row td:nth-child(2)::before { content: "Coef"; }
   .matiere-row td:nth-child(3)::before { content: "CC / Projet"; }
@@ -171,9 +170,11 @@ button:hover {
     text-align: center;
   }
 
-  /* Matière en échec */
   .matiere-fail {
     background-color: #fdecea;
   }
-}
+}*/
+
+
+
   
