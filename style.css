@@ -81,3 +81,99 @@ button:hover {
   text-align: center;
   color: #1f2d3d;
 }
+
+
+/* ==============================
+   RESPONSIVE – VERSION MOBILE
+   ============================== */
+
+@media (max-width: 768px) {
+
+  body {
+
+
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th {
+    display: none; /* on cache l'en-tête */
+  }
+
+  table, tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 12px;
+    border: 1px solid #dcdfe6;
+    border-radius: 6px;
+    background: white;
+  }
+
+  /* Ligne UE */
+  .ue-row {
+    background-color: #eaf0ff;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .ue-row td {
+    border: none;
+    padding: 10px;
+  }
+
+  /* Matière = carte */
+  .matiere-row td {
+    border: none;
+    padding: 6px 10px;
+    text-align: left;
+  }
+
+  .matiere-row td::before {
+    font-weight: bold;
+    color: #555;
+    display: inline-block;
+    width: 120px;
+  }
+
+  /* Libellés */
+  .matiere-row td:nth-child(1)::before { content: "Matière"; }
+  .matiere-row td:nth-child(2)::before { content: "Coef"; }
+  .matiere-row td:nth-child(3)::before { content: "CC / Projet"; }
+  .matiere-row td:nth-child(4)::before { content: "Examen"; }
+  .matiere-row td:nth-child(5)::before { content: "Moyenne"; }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  #moyenneSemestre,
+  #creditsTotal {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Matière en échec */
+  .matiere-fail {
+    background-color: #fdecea;
+  }
+}
+  
